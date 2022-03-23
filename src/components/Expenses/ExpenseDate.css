@@ -1,0 +1,21 @@
+.date {
+  border: 2px solid snow;
+  border-radius: 12px;
+  background-color: #353434;
+  font-weight: 700;
+  width: 12%;
+  text-align: center;
+  line-height: 0.2rem;
+  margin: 0.5em 0;
+  margin-left: 1em;
+}
+.year {
+  font-size: 0.8rem;
+}
+.month {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.day {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,67 @@
+.form-complete {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-field,
+.date-field,
+.amount-field {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 1.5em;
+}
+
+.title-field,
+.date-field {
+  margin-top: 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 80%;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 0.1em;
+  color: #353434;
+}
+
+input[type="date"] {
+  padding: 0.4em;
+}
+
+.submit-form {
+  align-self: flex-end;
+  display: flex;
+  margin-left: auto;
+  margin-top: 0.7em;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.submit-form button {
+  width: 40%;
+  padding: 0.2em;
+  border-radius: 12px;
+  border: 2px solid aliceblue;
+  background-color: darkorchid;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: padding ease-in 0.06s;
+}
+
+.submit-form button:hover {
+  cursor: pointer;
+  background-color: #9932cc77;
+}
+
+.title-field label,
+.date-field label,
+.amount-field label {
+  font-weight: 700;
+  color: #353434;
+  font-size: 1.1rem;
+}

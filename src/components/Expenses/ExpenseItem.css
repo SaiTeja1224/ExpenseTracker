@@ -1,0 +1,29 @@
+.item {
+  background-color: #3f3f3f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.1em;
+}
+.amount {
+  border: 2px solid white;
+  background-color: darkorchid;
+  border-radius: 12px;
+  font-weight: 700;
+  width: 15%;
+  text-align: center;
+  margin-right: 2em;
+  font-size: 1.2rem;
+}
+
+.amount p {
+  font-size: 1.4rem;
+  margin: 0.3em 0.4em;
+}
+
+.title {
+  width: 45%;
+  font-weight: bold;
+  font-size: 1.7rem;
+  justify-self: start;
+}

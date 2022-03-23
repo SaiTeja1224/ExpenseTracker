@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .header button {
+  margin: 1.1em 0;
+  margin-right: 2em;
+  border-radius: 12px;
+  border: 2px solid aliceblue;
+  background-color: darkorchid;
+  color: aliceblue;
+  width: 10%;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: padding ease-in 0.06s;
+}
+
+.header button:hover {
+  cursor: pointer;
+  background-color: #9932cc77;
+} */

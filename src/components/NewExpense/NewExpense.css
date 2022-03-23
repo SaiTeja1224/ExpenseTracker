@@ -1,0 +1,29 @@
+.new-expenses {
+  background-color: rgb(226, 110, 255);
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1.2em;
+  padding: 1.2em 1.2em;
+}
+
+.form-flip-button {
+  margin: 0 auto;
+  width: 25%;
+}
+
+.form-flip-button button {
+  width: 100%;
+  padding: 0.2em;
+  border-radius: 12px;
+  border: 2px solid aliceblue;
+  background-color: darkorchid;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: padding ease-in 0.06s;
+}
+
+.form-flip-button button:hover {
+  cursor: pointer;
+  background-color: #9932cc77;
+}
